@@ -393,7 +393,7 @@ h1, p {
 
     .download-cv{
         height: 30px;
-        margin-left: 155px;
+        /* margin-left: 155px; */
         margin-top: 40px;
         margin-right: auto;
         padding: 30px 30px 60px 30px;
@@ -431,3 +431,4 @@ h1, p {
         margin: 20px 0; /* Add margin between cards */
     }
 }
+
