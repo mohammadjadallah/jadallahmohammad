@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, p {
+    margin: 0;
+}
+
+/* Style for the entire container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.section1 {
+    margin-bottom: 0; /* Remove any default margin */
+    padding-bottom: 0; /* Remove any default padding */
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0c0c0c; /* Adjust colors as needed */
+    /* margin-bottom: -10px; */
+
+}
+
+.photo {
+    flex: 1;
+    max-width: 300px; /* Adjust the max-width according to your needs */
+    /* background-color: #0a547c; */
+}
+
+.photo img {
+    width: 150%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 100px 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    
+
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-container h1{
+    margin-left: 400px;
+    margin-top: 100px;
+    line-height: 50px;
+    color: #2fffdc;
+
+}
+
+.text-container h1 span{
+    display: block; /* Display the span as a block to move it to a new line */
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+.text-container p{
+    color: aliceblue;
+    margin-left: 400px;
+    margin-top: 20px;
+    text-align: justify; /* Justify the text */
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 30px;
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+    padding-top: 30px;
+
+}
+
+.divider-line {
+    height: 3px;
+    width: 40%;
+    background-color: #ccc; /* Set the color of the line */
+    border-radius: 5px;
+}
+
+/* Section 2 "About Me - Personal Info" */
+.section2{
+    /* text-align: center; */
+    background-color: #0c0c0c;
+    display: flex;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.about h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.personel-info{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+
+.personel-info ul{
+    list-style: none;
+    text-align: justify;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 60px;
+    text-indent: 10px;
+    margin: 50px;
+    color: aliceblue;
+
+}
+
+.download-cv{
+    border-color: #2fffdc;
+    border-style: solid;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 150px;
+    padding: 30px 30px 60px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.download-cv:hover{
+    background-color: #199681;
+    transition: right 0.5s ease;;
+}
+
+/* experience */
+.exp-section {
+    background-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.exp-section h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.experience {
+    padding: 20px;
+    border: 1px solid #199681;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    width: 80%;
+}
+
+.experience ul{
+    list-style: none;
+}
+
+.experience-gained {
+    font-size: 15px;
+    color: aliceblue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.year {
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #252525;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 40px;
+    color: aliceblue;
+    /* margin-top: 10px; */
+}
+
+.icon{
+    color: #199681;
+    font-size: 20px;
+}
+
+/* Links-Cards Section */
+.links-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    background-color: #0c0c0c;
+}
+
+.links-section h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: #111515;
+    width: 30%;
+    height: 510px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 5px rgba(132, 132, 132, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0.9);
+    overflow: hidden; /* Ensure the image stays within the card boundaries */
+
+}
+
+.card-photo {
+    width: 100%;
+    height: 70%; /* Adjust the height as needed */
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-photo:hover {
+    transform: scale(1.1) ; /* Increase the size on hover */
+}
+
+.lastPhoto{
+    padding-top: 30px;
+}
+
+.card h4 {
+    color: white;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.card span {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    padding: 30px 20px 40px 20px;
+}
+
+.target {
+    color: white;
+}
+
+/* Section 3 "Certificates" */
+.section3 {
+    text-align: center;
+    background-color: #e6e6e6;
+    height: 650px;
+}
+
+.section3 h1{
+    padding-top: 40px;
+    color: #000000;
+    font-size: 50px;
+}
+
+.certifications-slider {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.certifications-slider img {
+    width: 50%;
+    height: 500px; /* Set a fixed height or adjust as needed */
+    margin: auto;
+    display: block; /* Ensure block-level display for proper centering */
+    border-radius: 10px;
+    box-shadow: 10px 8px 16px 5px rgba(0,0,0,0.2);    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    /* transform: scale(0.9); */
+}
+
+.certifications-slider img:hover {
+    transform: scale(1.002); /* Enlarge the image on hover for a card-like interaction */
+}
+
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 991px) {
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .photo {
+        margin: 0 auto; /* Center the photo horizontally */
+        max-width: 100%;
+    }
+
+    .photo img {
+        display: block;
+        width: 80%; /* Adjust as needed */
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 8px 8px 8px 80px rgba(0, 0, 0, 0.1);
+    }
+    .text-container h1{
+        font-size: 25px;
+    }
+
+    .text-container h1,
+    .text-container p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .certifications-slider img {
+        width: 100%; /* Set the width to 100% for responsiveness */
+        height: auto;
+        border-radius: 10px;
+        /* box-shadow: 8px 8px 8px 80px rgba(0, 0, 0, 0.1); */
+        transition: transform 0.3s ease-in-out;
+        transform: scale(0.9);
+    }
+
+    .certifications-slider img:hover {
+        transform: scale(0.92);
+    }
+
+    .section2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .personel-info{
+        flex-direction: column;
+    }
+    .personel-info ul{
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        text-indent: 0px;
+        margin: 0px   
+    }
+
+    .download-cv{
+        height: 30px;
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-right: auto;
+        padding: 30px 30px 60px 30px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .exp-section h1 {
+        font-size: 35px;
+    }
+
+    .d2 {
+        height: 3px;
+        width: 40%;
+        background-color: #ccc; /* Set the color of the line */
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+
+    .links-section{
+        height: 1900px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%; /* Adjust the width as needed */
+        margin: 20px 0; /* Add margin between cards */
+    }
+}
+
