@@ -391,22 +391,20 @@ h1, p {
         margin: 0px   
     }
 
-    .download-cv{
+    .download-cv {
         height: 30px;
-        /* margin-left: 155px; */
         margin-top: 40px;
         margin-right: auto;
-        padding: 30px 30px 60px 30px;
+        padding: 20px 20px 40px 20px; /* Adjust padding for a more compact look */
         font-size: 20px;
         font-weight: bold;
-        align-items: center;
-
-
-
+        /* align-items: center; */
+        display: flex; /* Make the button flex to center its content */
     }
+    
 
     .exp-section h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .d2 {
@@ -430,5 +428,12 @@ h1, p {
         width: 80%; /* Adjust the width as needed */
         margin: 20px 0; /* Add margin between cards */
     }
-}
 
+    .links-section h1 {
+        font-size: 25px;
+    }
+
+    .exp-section h1 {
+        font-size: 25px;
+    }
+}
