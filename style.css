@@ -436,4 +436,8 @@ h1, p {
         margin-bottom: 20px;
         font-size: 40px;
     }
+
+    .section3 h1{
+        font-size: 40px;
+    }
 }
