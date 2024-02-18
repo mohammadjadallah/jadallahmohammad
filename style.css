@@ -59,7 +59,7 @@ h1, p {
 
 .text-container h1{
     margin-left: 400px;
-    margin-top: 100px;
+    margin-top: 20px;
     line-height: 50px;
     color: #2fffdc;
 
@@ -430,5 +430,10 @@ h1, p {
 
     .exp-section h1 {
         font-size: 25px;
+    }
+
+    .about h1{
+        margin-bottom: 20px;
+        font-size: 40px;
     }
 }
